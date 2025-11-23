@@ -1,4 +1,23 @@
+/*Diferença de classe para id é que a classe pode ser usada diversas vezes no meu código enquanto meu id só pode 
+ser utilizado apenas uma vez
+
+Quanto mais especifico mais prioridade no meu CSS*/
+
 p{
     color: blue;
     background-color: yellow;
+}
+
+#paragrafo1{
+    color: red;
+    background-color: transparent;
+}
+
+.fundo-azul{
+    background-color: blue;
+    color: pink;
+}
+
+.texto-amarelo{
+    color: yellow;
 }
