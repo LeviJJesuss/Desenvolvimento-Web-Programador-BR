@@ -1,0 +1,20 @@
+/*O filho herda o tamanho da fonte do pai*/
+/*A unidade de medida em multiplica o tamanho que a fonte deveria ter 
+por exemplo o container pai tem 60px a fonte ja no exemplo 2 ele vai ter 2 vezes o valor do font size do container
+*/
+
+.container{
+    font-size: 10px;
+}
+
+.exemplo1{
+    font-size: 2em;
+}
+
+.exemplo2{
+    font-size: 2em;
+}
+
+.exemplo3{
+    font-size: 2em;
+}
