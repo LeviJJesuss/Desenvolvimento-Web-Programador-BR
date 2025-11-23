@@ -3,6 +3,12 @@ ser utilizado apenas uma vez
 
 Quanto mais especifico mais prioridade no meu CSS*/
 
+/*Uma das formas de adicionar cores no css são pelo nome de cada cor ou caso você queira uma cor mais específica 
+utilizamos o RGB que é uma graduação de cores que vai de 0 a 255
+ou podemos utilizar cores no formato hexadecimal;
+Já o RGBA funciona de forma diferente por que o A vem de alfa onde acrescento uma transparência na minha cor
+*/
+
 p{
     color: blue;
     background-color: yellow;
@@ -10,7 +16,7 @@ p{
 
 #paragrafo1{
     color: red;
-    background-color: transparent;
+    background-color: #FF6400;
 }
 
 .fundo-azul{
