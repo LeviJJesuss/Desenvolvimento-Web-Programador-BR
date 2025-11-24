@@ -1,0 +1,18 @@
+/*Se eu usar a propriedade overflow com o atributo hidden ele irá esconder o restante 
+do conteúdo que não couber no elemento pai porém se eu tiver um texto muito importante na 
+parte de baixo do meu conteúdo o que eu posso fazer?
+Eu posso manter a propriedade overflow e usar o atributo scroll para ter uma rolagem
+no meu conteúdo que esta dentro do meu elemento pai*/
+
+.card{
+    width: 300px;
+    height: 300px;
+    background-color: #ccc;
+    /*overflow: auto;*/
+    /*Abaixo temos variações de overflow*/
+    overflow-y: scroll;
+}
+
+.lorem{
+    font-size: 20px;
+}
