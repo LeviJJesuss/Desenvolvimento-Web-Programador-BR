@@ -1,0 +1,38 @@
+/*Nem sempre mas na maioria das vezes vamos pegar o elemento principal body
+e adicionar que o margin e o padding vai ser igual a 0 
+dessa forma garanto que não vou ter espaço entre meu conteúdo e a borda da página
+*/
+
+/*No caso se eu adicionar um padding de 10px na div primeira a somatoria total dos 
+valores vai para 120px pois ele irá acrescentar um espaço do conteúdo até a borda do elemento pai
+e como meu elemento pai esta definido com 100px de altura e largura + 10px no eixo x e y
+de padding ou seja mais 20px o total será de 120px para cada lado*/
+
+/*E não é só o padding que soma no meu elemento pai, o border também*/
+/*Mas caso eu não queira que o meu elemento pai se comporte desta forma como uma somatoria 
+em tudo que eu adicionar eu posso usar o atributo box-sizing que basicamente vai ter 
+dois valores específicos sendo o content-box para manter o padrão que ja esta ocorrendo 
+ou seja somando os valores ou border-box onde tudo que eu adicionar não irá mais 
+somar para fora e sim para dentro do meu elemento pai, assim mantendo o tamanho de 
+100px de height e 100px de width*/
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#primeira {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#segunda {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    color: white;
+}
