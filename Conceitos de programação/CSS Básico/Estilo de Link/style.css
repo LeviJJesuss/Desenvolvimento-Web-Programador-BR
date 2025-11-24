@@ -1,0 +1,25 @@
+/*Hoje vamos estudar por cima pseudoclasses*/
+a {
+    background-color: cornflowerblue;
+    color: beige;
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px auto;
+}
+
+
+/*Esse estado ocorre quando o link foi visitado*/
+a:visited {
+    background-color: blueviolet;
+}
+
+/*O hover é o estado que ele adota quando o mouse passa por cima do botão*/
+a:hover {
+    padding: 20px;
+}
+
+/*O active é o estado que ele adota quando eu clico no mouse*/
+a:active {
+    background-color: #444;
+}
