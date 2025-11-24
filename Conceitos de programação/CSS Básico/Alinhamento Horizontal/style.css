@@ -1,0 +1,23 @@
+div {
+    height: 200px;
+    background-color: blue;
+    /*Se eu colocar o atributo auto na minha propriedade margin ele vai tentar 
+    pegar todo o espaço dísponivel para margin*/
+    margin: auto auto;
+    text-align: center;
+}
+
+p {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/*O margin left ou right só aceita o valor auto se o elemento naturalmente ocupar a tela 
+inteira*/
+
+img {
+    background-color: red;
+    margin-left: auto;
+}
