@@ -1,0 +1,23 @@
+/*As 3 famílias básicas de fontes são sans-serif(sem serifa), monospace, e serif(com serifa)
+Arial é uma fonte padrão sem serifa,
+(Times New Roman), sempre que eu for utilizar fontes em que o nome tenha mais de uma palavra,
+é necessário passar entre aspas para melhor compreensão do navegador
+*/
+
+/*Caso eu faça um software que seja baseada em determinada fonte, porém quando o cliente for acessar o meu software
+essa fonte não estiver disponível para ele, eu posso passar no meu font-family fontes para backup 
+para que de certa forma eu possa "cobrir" a falta da minha fonte principal isso passando a vírgula e passando outra fonte 
+na sequência*/
+
+body{
+    /*No caso se o navegador não achar a primeira fonte ele vai procurar pela segunda e após isso 
+    caso o navegador continue sem achar a segunda fonte, o navegador vai para a terceira fonte
+    como backup*/
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    font-family:  Courier, monospace;
+}
+
+#paragrafo{
+    font-style: italic;
+    font-weight: bold;
+}
