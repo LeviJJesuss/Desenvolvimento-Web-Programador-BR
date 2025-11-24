@@ -1,0 +1,30 @@
+/*Nesta aula vamos falar sobre espaçamento
+para criar um espaçamento entre as div podemos usar margin*/
+
+#primeira{
+    height: 100px;
+    background-color: blue;
+}
+
+/*O padding seria como uma margem entre o conteúdo e o seu elemento pai*/
+
+#segunda{
+    height: 100px;
+    background-color: red;
+    margin: 10px 200px;
+    border: 5px solid black;
+    border-radius: 40px;
+    padding: 20px 20px;
+}
+/*A margem que eu passar na terceira div só vai valer se o valor for maior que 
+a margem da segunda div*/
+#terceira{
+    height: 100px;
+    background-color: green;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p{
+    margin-top: 0;
+}
