@@ -1,0 +1,42 @@
+#primeira{
+    height: 100px;
+    /*background-color: blue;*/
+    border-width: 5px;
+    border-style: dotted;
+    border-color: blue;
+}
+
+#segunda{
+    height: 100px;
+    width: 100px;
+    /*background-color: red;*/
+    border-width: 5px 5px;
+    border-style: solid;
+    /*A borda da minha div pode ser solid, dotted(pontilhado)*/
+    border-color: green yellow;
+    /*Se eu passar dois valores na cor da minha borda, o primeiro valor edita o eixo y e o segundo o eixo x
+    mas eu posso adicionar até 4 valores definindo a cor de cada canto*/
+    border-radius: 50%;
+    /*Eu posso bordear a minha borda por assim dizer kkkk por exemplo deixando os cantos arredondados com 
+    o border-radius
+    passando mais de um valor eu consigo definir o peso do arredondamento em cada canto
+    como exemplo se eu passar a largura e altura no mesmo valor ou seja mesmo tamanho (um quadrado perfeito)
+    e decidir que o border-radius vai ser de 50% dessa forma eu crio um círculo perfeito*/
+}
+
+#terceira{
+    height: 100px;
+    /*background-color: green;*/
+    border-width: 5px;
+    border-style: dashed;
+    /*A borda da minha div também pode ser dashed(tracejada)*/
+    border-color: red;
+}
+
+P{
+    /*Apenas para exemplo, eu posso passar apenas o atributo border e definir apenas no 
+    atributo como a minha borda ira se comportar e seus valores etc
+    isso se chama shorthander (acredito que se escreva assim kkkk) 
+    o border radius no caso eu precisaria passar separado*/
+    border: 3px solid green;
+}
