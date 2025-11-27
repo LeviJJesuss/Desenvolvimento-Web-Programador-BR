@@ -37,7 +37,6 @@ h2{
 .mb{
     margin-bottom: 15px;
 }
-
 input, select{
     width: 100%;
     box-sizing: border-box;
@@ -45,13 +44,11 @@ input, select{
     border: none;
     margin-bottom: 10px;
 }
-
 input[type="submit"]{
     color: white;
     background-color: #48C5CE;
     font-weight: bold;
 }
-
 select{
     -webkit-appearance: none;
     -moz-appearance: none;
