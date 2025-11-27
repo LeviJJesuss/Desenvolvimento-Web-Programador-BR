@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position - Fixed</title>
+    <style>
+        .quadrado{
+            width: 100px;
+            height: 100px;
+        }
+        .quadrado-red{
+            background-color: red;
+        }
+        /*
+        📌 Como funciona o position: fixed
+        - Referência: O elemento é posicionado em relação à viewport (janela visível do navegador), não ao seu elemento pai.
+        - Persistência: Mesmo com o scroll da página, o elemento continua no mesmo lugar.
+        - Propriedades auxiliares: Você usa top, right, bottom e left para definir a posição exata.
+        - Remoção do fluxo normal: O elemento sai do fluxo padrão do documento, podendo sobrepor outros conteúdos.
+        */
+        .quadrado-blue{
+            position: fixed;
+            left: 300px;
+            background-color: blue;
+        }
+        .quadrado-green{
+            background-color: green;
+        }
+        .quadro{
+            width: 500px;
+            height: 4000px;
+            border: 2px solid gray;
+        }
+    </style>
+</head>
+<body>
+    <div class="quadro">
+        <div class="quadrado quadrado-red"></div>
+        <div class="quadrado quadrado-blue"></div>
+        <div class="quadrado quadrado-green"></div>
+    </div>
+</body>
+</html>
