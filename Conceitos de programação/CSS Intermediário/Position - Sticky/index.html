@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position - Sticky</title>
+    <style>
+        .quadrado{
+            width: 100px;
+            height: 100px;
+        }
+        .quadrado-red{
+            width: 100%;
+            top: 0;
+            position: sticky;
+            background-color: red;
+        }
+        /*
+            📌 Como funciona o position: sticky
+            - Inicialmente relativo: O elemento segue o fluxo normal da página.
+            - Ao rolar a página: Quando atinge o valor definido em top, left, right ou bottom, ele “gruda” na posição.
+            - Dentro do contêiner: Diferente do fixed, o sticky só funciona dentro dos limites do elemento pai. Quando o contêiner termina, o sticky deixa de ficar fixo.
+        */
+        .quadrado-blue{
+            background-color: blue;
+        }
+        .quadrado-green{
+            background-color: green;
+        }
+        .quadro{
+            width: 500px;
+            height: 4000px;
+            border: 2px solid gray;
+        }
+    </style>
+</head>
+<body>
+    <div class="quadro">
+        <div class="quadrado quadrado-red"></div>
+        <div class="quadrado quadrado-blue"></div>
+        <div class="quadrado quadrado-green"></div>
+    </div>
+</body>
+</html>
