@@ -7,3 +7,15 @@ var str = "Valor qualquer";
 str += ", outro texto";
 
 console.log(str);
+
+var a = 3;
+var b = 6;
+
+// Quando eu utilizo o parseInt significa que eu quero pegar uma string e transformar em 
+// um número para a minha soma
+// Eu posso transformar também em um número real com o parseFloat
+// No caso uma string com casas decimais
+
+var c = parseInt(a) + parseInt(b);
+
+console.log(c)
